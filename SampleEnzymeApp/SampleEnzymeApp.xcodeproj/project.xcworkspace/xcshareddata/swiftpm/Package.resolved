@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Enzyme",
+        "repositoryURL": "https://github.com/ebubekirsezer/Enzyme",
+        "state": {
+          "branch": null,
+          "revision": "d9e77b1979ec70657a7292d7655ae24c719300d0",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
