@@ -14,13 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let stringDate = "2021-12-24"
+        let stringDate = "2022-01-05"
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
         let date = dateFormatter.date(from: stringDate)
         
-        print("Is today: \(date?.isToday() ?? false)")
-        print("Is yesterday: \(date?.isYesterday() ?? false)")
+        print("Is today: \(date?.isToday ?? false)")
+        print("Is yesterday: \(date?.isYesterday ?? false)")
     }
 
 
