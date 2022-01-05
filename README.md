@@ -8,13 +8,13 @@ Enzyme is a spm package for the make easier development on iOS.
 - Inside the Enzyme package there is a Date extension which help you to check the date for the today and yesterday.
 
 ```
-let stringDate = "2021-12-24"
+let stringDate = "2022-01-05"
 let dateFormatter = DateFormatter()
 dateFormatter.dateFormat = "yyyy-MM-dd"
 let date = dateFormatter.date(from: stringDate)
-        
-print("Is today: \(date?.isToday() ?? false)")
-print("Is yesterday: \(date?.isYesterday() ?? false)")
+
+print("Is today: \(date?.isToday ?? false)")
+print("Is yesterday: \(date?.isYesterday ?? false)")
 ```
 ## Social Media Buttons
 - Enzyme package alson consist the social media buttons for the Twitter, Instagram and Facebook. The button width and height size are 40x40.
